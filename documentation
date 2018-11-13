@@ -1,0 +1,37 @@
+Chapter 2 end to end machine learning project
+steps
+1. look at big picture
+2. get data
+3. discover and visualize data to gain insights
+4. prepare data for machine learning algorithms
+5. select a model and train it
+6. fine tune your model
+7. present your solution
+8. launch monitor and maintain your system
+
+
+Predict median housing price in any district
+work: /home/ramdas/Work/Learning/Tensorflow/hands_on_machine_learning/chap_2_end_to_end_mc_project
+
+Preformance measure
+RMSE - root mean squared error - L2 norm, euclidian norm
+MAE - mean absolute error - L1 norm, manhattan norm
+Lk norm (|v0|^k + |v1|^k + .. |Vn|^k)^1/k = ||vk||
+L0 - number of non zero elements in vector
+Linfinity - maximum absolute value in vector
+higher norm index, more it focuses on large values and neglects small ones. RMSE is more sensitive to outliers than MAE but performs well on bell-shaped curves and is prefered
+
+all code is present at https://github.com/ageron/handson-ml
+
+Creating virutal environment
+pip install --user --upgrade virtualenv
+virtualenv env
+cd ~/Work/Learning/Tensorflow/hands_on_machine_learning/chap_2_end_to_end_mc_project
+source env/bin/activate
+
+Creating test set
+random sampling is fine if dataset is huge, if dataset is small it can create sampling bias.
+Stratified sampling - population is divided into strata (male, female) and right number of instances is sampled from the stratum to guarantee test set is representative of whole population
+
+Next step - Visualizing the data
+
