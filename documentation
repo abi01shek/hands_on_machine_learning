@@ -38,3 +38,9 @@ Next step - Visualizing the data
 Looking for correlations
 petersons coefficient - standard correlation coefficient
 show correlations between different variables
+
+
+Preparing data for machine learning agorithms
+1. write functions
+
+20/11 - completed till prepare data for machine learning algorithms next step is Select and train a model
